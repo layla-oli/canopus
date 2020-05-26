@@ -53,10 +53,18 @@ void atualizalivres (struct listalivres **livres, int *vetor){
     free(aux1);
     aux1=aux2;
     }//lista limpa pra reiniciar
-    auxiliar = (struct listalivres*) malloc(sizeof(struct listalivres));
-    int 
-    for
-
+    int i, contagem=0;
+    for (i=0;i<25:i++){
+        if vetor[i]=0{
+            contagem++;
+        }
+        else {
+            auxiliar = (struct listalivres*) malloc(sizeof(struct *listalivres));
+            auxiliar->quantidade=contagem;
+            auxiliar->endereço=vetor[i-contagem];
+            auxiliar->proximo=*livres;
+        }
+    }
 }
 
 int main(){
