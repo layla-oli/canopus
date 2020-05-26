@@ -59,7 +59,7 @@ void atualizalivres (struct listalivres **livres, int *vetor){
             contagem++;
         }
         else {
-            auxiliar = (struct listalivres*) malloc(sizeof(struct *listalivres));
+            auxiliar = (struct listalivres*) malloc(sizeof(struct listalivres));
             auxiliar->quantidade=contagem;
             auxiliar->endereço=vetor[i-contagem];
             auxiliar->proximo=*livres;
