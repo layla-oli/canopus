@@ -1,6 +1,6 @@
 # canopus
 
-First of all, I want to apologize for my terrible english. I'm trying to improve that during the pandemics. 
+First of all, I want to apologize for my terrible english. I'm trying to improve that during the pandemic. 
 
 This is my first repository and my first uploaded file is a project for my professor. It obviously still need a lot of repairs and
 the most important: needs to be fineshed. So, due to a lot of thins that happened last week, I brought here what I wrote with 
