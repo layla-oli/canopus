@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct listalivres {
+    int *endereco;
+    int quantidade;
+    struct listalivres *proximo;
+};
+
+struct listaocupados {
+    char variavel;
+    int tamanho;
+    int posicao;
+    struct listaocupados *proximo;
+};
+
+void adiciona (char id, int espacos, struct listaocupados **ocupados, int *vetor){
+    struct listaocupados *aux;
+    aux = (struct listaocupados*) malloc(sizeof(struct listaocupados));
+    aux->variavel = id;
+    aux->tamanho = espacos;
+    aux->prox = *ocupados;
+    *ocupados = aux;
+}
+
+void remove (char id, struct listaocupados **ocupados, int *vetor){
+    struct listaocupados *aux;
+    aux=*ocupados;
+    while (aux->variavel=!id){
+        aux=*ocupados->proximo;
+        if (aux==NULL) {
+            printf("erro");
+            break;
+    }
+    }
+    int i;
+    int t=aux->tamanho;
+    for (i=aux->posicao;i<t;i++){
+            vetor[i]=0;
+    }
+    while (aux->proximo=!NULL){
+        aux=aux->prox;
+    }
+    free(aux)
+}
+
+void atualizalivres (struct listalivres **livres, int *vetor){
+    int *aux;
+    struct listalivres *aux1, *aux2, *auxiliar;
+    aux1=*livres
+    while (aux1 =! NULL) { // limpa a lista
+    aux2=aux1->proximo;
+    free(aux1);
+    aux1=aux2;
+    }//lista limpa pra reiniciar
+    auxiliar = (struct listalivres*) malloc(sizeof(struct listalivres));
+    int 
+    for
+
+}
+
+int main(){
+    int maxvet;
+    int vector[maxvet];
+    int sinal = 1;
+    int op
+
+    while (sinal==1){
+
+        switch (op) case 1: //adicionar
+                    case 2: // remover
+                    case 3: //
+                    case 4: //finalizar
+                         start = 0;
+    }
+
+}
